@@ -21,4 +21,9 @@ class Instructor < Person
 end
 
 #8. and undefined method 'teach' is what occurs when the teach method is called on the instructor.
-#This happens because the Instructor inheritance of the Person class. it must follow the the method of that class. 
+#This happens because the Instructor inheritance of the Person class. it must follow the the method of that class.
+student.name = "Chris"
+student.name = "Christina"
+student.greeting
+instructor = Instructor.new
+instructor.teach
